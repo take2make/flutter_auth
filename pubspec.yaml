@@ -1,0 +1,40 @@
+name: way_up
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.3
+
+environment:
+  sdk: ">=2.16.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  flutter_svg: ^1.0.3
+  table_calendar: ^3.0.3
+  flutter_bloc: ^8.0.1
+  equatable: ^2.0.3
+  shared_preferences: ^2.0.13
+  flutter_multi_formatter: ^2.5.1
+  loading_animation_widget: ^1.1.0+0
+  pin_code_fields: ^7.3.0
+  pin_code_text_field: ^1.8.0
+  formz: ^0.4.1
+  mocktail: ^0.2.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^1.0.0
+
+
+flutter:
+  uses-material-design: true
+
+  fonts:
+    - family: Manrope
+      fonts:
+        - asset: fonts/manrope.ttf
